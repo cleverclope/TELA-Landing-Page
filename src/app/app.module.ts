@@ -10,12 +10,18 @@ import { MatIconModule } from '@angular/material/icon';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { TelaSchoolComponent } from './tela-school/tela-school.component';
+import { TelaHealthComponent } from './tela-health/tela-health.component';
+import { TelaVaccinationComponent } from './tela-vaccination/tela-vaccination.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    TelaSchoolComponent
+    TelaSchoolComponent,
+    TelaHealthComponent,
+    TelaVaccinationComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
