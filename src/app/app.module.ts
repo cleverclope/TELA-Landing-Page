@@ -13,6 +13,7 @@ import { TelaSchoolComponent } from './tela-school/tela-school.component';
 import { TelaHealthComponent } from './tela-health/tela-health.component';
 import { TelaVaccinationComponent } from './tela-vaccination/tela-vaccination.component';
 import { AboutComponent } from './about/about.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AboutComponent } from './about/about.component';
     TelaSchoolComponent,
     TelaHealthComponent,
     TelaVaccinationComponent,
-    AboutComponent
+    AboutComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
